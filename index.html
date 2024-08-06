@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Beautiful News Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="#">News</a>
+            <a href="#">Politics</a>
+            <a href="#">Live</a>
+            <a href="#">Economy</a>
+        </div>
+        <div class="nav-center">
+            <img src="./img/logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="nav-right">
+            <a href="#"><img src="./img/user-profile_4803060.png" alt="Profile" class="icon"></a>
+            <a href="#"><img src="./img/search.png" alt="Contact" class="icon"></a>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-carousel">
+            <div class="hero-carousel-item active" style="background-image: url('./img/hero1.jpeg');"></div>
+            <div class="hero-carousel-item" style="background-image: url('./img/hero2.jpeg');"></div>
+            <div class="hero-carousel-item" style="background-image: url('./img/hero3.jpeg');"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Discover the World</h1>
+            <p class="hero-subtitle">Stay Informed, Stay Ahead</p>
+            <button class="hero-cta">Explore Now</button>
+        </div>
+    </section>
+
+    <main class="content">
+        <section class="news-section">
+            <h1 class="news-heading">News</h1>
+            
+            <div class="news-filters">
+                <a href="#" class="filter-button active">All</a>
+                <a href="#" class="filter-button">Announcement</a>
+                <a href="#" class="filter-button">New release</a>
+                <a href="#" class="filter-button">Blog</a>
+            </div>
+            
+            <div class="news-grid">
+                <article class="news-item large">
+                    <img src="./img/trump.webp" alt="Volleyball player serving" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">Volleyball player demonstrates serving technique</h2>
+                        <p class="news-excerpt">A professional athlete showcases proper form during a training session...</p>
+                    </div>
+                </article>
+                <div class="news-column">
+                    <article class="news-item small">
+                        <img src="./img/harris.jpeg" alt="Celebrating volleyball players" class="news-image">
+                        <div class="news-content">
+                            <h2 class="news-title">Team celebrates victory in recent match</h2>
+                            <p class="news-excerpt">Players share a joyous moment after securing an important win...</p>
+                        </div>
+                    </article>
+                    <!-- Add more small news items here if needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+ <script src="./script.js"></script>
+</body>
+</html>
